@@ -10,8 +10,22 @@
             text-align: center;
         }
         li {
-            padding: 20px 0;
-            border-bottom: 1px solid #422c2c;
+            cursor: pointer;
+            position: relative;
+            padding: 20px 10px 20px 40px;
+            background-color: #eee;
+            font-size: 18px;
+            transition: 0.2s;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        li:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+        li:hover {
+            background-color: #ddd;
         }
     </style>
 </head>
