@@ -1,1 +1,9 @@
-
+h1 {
+  font-size: 1.5em;
+}
+p {
+  margin: 0;
+  padding: 10px;
+  background-color: #eee;
+  border-botton: 1px solid black;
+}
